@@ -1,0 +1,177 @@
+Module 6 quiz on Object Oriented Programing concepts
+
+
+1. An object is
+
+
+
+The grouping together of data and behavior to create a single entity
+
+
+The blue print for creating classes
+
+
+A way to hide implementation details from the user
+
+
+A sequence of characters
+
+************
+Ans:-  The grouping together of data and behavior to create a single entity
+************
+
+
+
+2. A typicial object oriented program
+
+
+
+must consist of at least four classes.
+
+
+uses objects to model the behavior of the ints, chars and boolean variables used in the program.
+
+
+uses objects to perform most of its useful behavior.
+
+
+uses methods and primitive data types to perform most of its useful behavior.
+
+************
+Ans:- uses objects to perform most of its useful behavior.
+***********
+
+
+
+3. An example of abstraction would be
+
+
+
+supplying the technical drawings with a digital camera.
+
+
+supplying a Quick Start guide with a digital camera.
+
+
+supplying batteries with a digital camera.
+
+
+only selling digital cameras to experienced users.
+
+********************
+Ans:-supplying a Quick Start guide with a digital camera.
+**********
+
+
+4. An example of an instance of the City class would be
+
+
+
+the variables Name, Latitude, Longitude, Country and Population.
+
+
+the plans for a city.
+
+
+the city of Philadelphia.
+
+
+the methods to update the city's population and to calculate the distance to other cities.
+
+
+**********
+Ans:- 
+the city of Philadelphia.
+*********
+
+
+
+5. A class file is (select all that apply)
+
+
+a file containing a single program or module.
+
+
+a template or blueprint for an object.
+
+
+a collection of objects.
+
+
+a collection of keywords.
+
+*************
+Ans:- a file containing a single program or module.
+a template or blueprint for an object.
+*************
+
+
+
+
+
+6. A String object is (select all that apply)
+
+a sequence of characters.
+
+Correct
+This describes the structure or state of a String.
+
+
+similar to primitive data types in some respects.
+
+
+a primitive data type.
+
+
+a reference to a memory location where data is stored.
+
+*****************************
+Ans:- a reference to a memory location where data is stored.
+similar to primitive data types in some respects.
+********************************
+
+
+
+
+
+7. Select all of the Java statements that would compile (would not cause an error).
+
+************************************
+Ans:-
+
+
+String str1 = "hi";
+String str2 = "HI";
+out.println(str1.equals(str2));
+
+
+
+out.println("Hello" + " programmers!");
+
+
+
+
+String str1 = "hi";
+String str2 = "HI";
+out.println(str1 == str2);
+
+*********************************
+
+
+
+8. Given the following objects
+
+String str1 = "held";
+String str2;
+
+How could you create the string herald?
+
+********************************
+Ans:- 
+str2 = str1.substring(0,2);
+str2 = str2 + "ra";
+str2 = str2.concat(str1.substring(2,4));
+
+*******************************
+
+
