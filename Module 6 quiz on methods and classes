@@ -1,0 +1,78 @@
+Module 6 quiz on methods and classes
+
+
+
+1. Making instance variables of a class private
+
+****************************
+Ans:-  
+is an application of abstraction and protects against object users gaining direct access to object state.
+*********************************
+
+
+2. A class method such as addMonthlyBonus(double x) that receives an input parameter and uses it to change the instance variable of an object is called a
+
+*****************
+Ans:- 
+
+mutator method
+*******************
+
+
+3. Select all of the following method definitions below that
+employ the correct syntax to define a constructor for the class Vehicle. A partial list of the class instance variables includes:
+
+int year;
+double odometer;
+...
+
+********************************
+Ans:- 
+
+public Vehicle(){
+}
+
+
+public Vehicle(double mileage, int year){
+  this(mileage);
+  this.year = year;
+}
+
+***********************************
+
+4. When a constructor is written for the class (select all that apply)
+
+***************************
+Ans:- 
+the default constructor must be recreated if it is to be used by client programs.
+
+**********************
+
+5. When calling one constructor from another constructor
+
+
+**********************
+Ans:-
+
+
+the keyword this is used and must be the first line of the constructor code.
+
+********************************
+
+6. Consider these two methods which are part of the Student class. Assume that age is a private instance variable of the class.
+
+
+public void setAge(int years, int months){
+   age = years * 12 + months;
+}
+
+public void setAge(int months){
+   age = months;
+}
+
+********************
+Ans:- mutators
+overloading
+**********************
+
+
