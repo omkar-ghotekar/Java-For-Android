@@ -1,0 +1,53 @@
+Module 7 quiz on code "dissection"
+
+
+1. Lines 54-58 show an example of
+
+
+Lines 54-58 show an example of
+
+*******************
+Ans:-
+
+a constructor that makes an explicit call to a constructor in the super class.
+*********************
+
+2. Line _______ is the first line of a overridden method in the subclass.
+
+*****************
+Ans: 78
+**************
+
+3. Line _______ is the first line of a mutator method that is inherited by the subclass.
+
+*********************
+Ans: 17
+*******************
+
+
+4. LIne _________ is the first line of a method in the super class that is not inherited by the subclass.
+
+********************
+Ans: 31
+************************
+
+
+5. Select all of the lines of code that could be written in the subclass. (i.e. would not cause a compile error or a runtime error)
+
+*********************
+Ans:- setMonth(8);
+super.setMonth(8);
+****************************
+
+
+6. Select all of the lines of code that could be written in a client file that was in the same project as the Month and SchoolMonth classes.
+
+**********************
+Ans:-
+Month[] summer = new Month[3];
+
+SchoolMonth x = new SchoolMonth(7);
+x.setMonth(3);
+
+********************
+
