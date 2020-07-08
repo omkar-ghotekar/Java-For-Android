@@ -1,0 +1,74 @@
+Module 6 quiz on arrays and parameters
+
+
+1. Which code segment illustrates a correct way to declare an array of 10 objects. Assume the class Beverage has been created.
+
+*************************
+Ans:-
+Beverage[] guestList = new Beverage[10];
+
+***********************
+
+2. Consider the following incorrect code segment. Assume the Pet class has been defined and contains the method setName(String).
+
+Pet customer[] = new Pet[5];
+customer[3].setName("Spot");
+
+*****************
+Ans:-
+
+We learned that this code is incorrect because...select the best explanation
+
+although the array of Pet references has been created, none of them point to Pet objects yet. Each object must be instantiated individually.
+*****************************
+
+
+3. Select all of the code segments that properly create an array of 3 objects and instantiate them. Assume the class Lesson has been created.
+
+***********************
+Ans:-
+Lesson [] week1 = new Lesson[3];
+for (int i = 0; i<week1.length; i++){
+    week1[i] = new Lesson();
+}
+
+Lesson [] week1 = {new Lesson(), new Lesson(), new Lesson()};
+*******************************
+
+
+4. When an object is passed as a parameter, its state is changed within the method that it was passed to because...
+
+********************
+Ans:-
+
+a copy of the object was passed.
+*************************
+
+
+5. Consider the code
+
+Pet sparky = new Pet();
+Pet fido = sparky;
+
+
+Line 2 of this code...
+
+***************************
+Ans:-
+
+sets the object fido to reference or "point to" the object sparky.
+
+***********************
+
+6. Select all of the scenarios where using a static class constant would be appropriate.
+
+********************************
+Ans:-
+
+
+To declare a constant that is used in different methods of the class and whose value never changes.
+
+To declare a constant that is somehow associated with the class and may be accessed by client programs.
+
+
+**********************************
