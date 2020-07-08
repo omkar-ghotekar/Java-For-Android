@@ -1,0 +1,63 @@
+Module 7 quiz on inheritance
+
+
+1. Consider a class Student whose state includes name and age, Joanne who is a Student, 
+and PartTime whose state includes all of the fields of Student and also maximumHours.
+
+*****************
+Ans:- Student is a _____________________
+Joanne is a _________________________
+PartTime is a ____________________
+1 / 1 point
+
+super class
+Student object
+subclass
+
+*************************
+
+2. When creating a subclass
+
+******************
+Ans:-
+
+only write the instance variables and methods that are added to the subclass.
+
+**************************
+
+3. Why do we aim to minimize the amount of code we have to write by not repeating code segments within a Java project? Check all that apply
+
+******************
+Ans:-
+
+It improves readability, code is easier to trace when implementation details are found in only on location.
+
+It makes debugging easier. Implementation details that only appear once in a project can be corrected or improved by editing in only one place.
+
+It facilitates code reuse. An object that contains all of its state and behavior in a single file is "portable" and can be included in many different Java projects.
+*****************************************
+
+
+4. To make a call from a subclass to a public, overloaded method whose implementation details are in its super class,
+
+*****************************
+Ans:-
+
+simply make the call. The unique return type and/or parameter list will enable the compiler to locate the implementation details.
+
+*********************************
+
+5. To make a call from a subclass to a public, overridden method whose implementation details are in its super class
+
+**************************
+Ans:-
+
+you must precede the call with the keyword super to indicate which version of the method you are calling.
+
+
+**********************************
+
+
+
+
+
